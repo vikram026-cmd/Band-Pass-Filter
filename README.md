@@ -1,14 +1,20 @@
-# Sallen-Key Band-Pass Filter (Active Filter)
+# 🔊 Sallen-Key Band-Pass Filter (Active Filter)
+
+<p align="center">
+  <b>Design and simulation of a second-order active band-pass filter using LTspice</b>
+</p>
+
+---
 
 ## 📌 Overview
 This project demonstrates the design and simulation of a **second-order Sallen-Key Band-Pass Filter** using LTspice.
 
-A band-pass filter allows signals within a specific frequency range to pass while attenuating frequencies below and above this range.
+A band-pass filter allows signals within a specific frequency range to pass while attenuating frequencies outside this range.
 
 ---
 
 ## ⚙️ Circuit Description
-The circuit is implemented as an **active band-pass filter** using operational amplifiers.
+The circuit is implemented using an operational amplifier to achieve an **active band-pass response**.
 
 It is designed to:
 - Reject low-frequency signals  
@@ -20,22 +26,34 @@ It is designed to:
 ## 🧪 Simulation Details
 - **Software:** LTspice  
 - **Analysis:** AC Sweep (.ac dec)  
-- **Frequency Range:** 100 Hz to 100 kHz  
+- **Frequency Range:** 100 Hz – 100 kHz  
 
 ---
 
 ## 📈 Circuit Diagram
-[![Circuit Diagram](images/circuit.png)](images/circuit.png)
+<p align="center">
+  <a href="images/circuit.png">
+    <img src="images/circuit.png" width="600"/>
+  </a>
+</p>
 
 ---
 
 ## 📉 Output Waveform
-[![Output Waveform](images/waveform.png)](images/waveform.png)
+<p align="center">
+  <a href="images/waveform.png">
+    <img src="images/waveform.png" width="600"/>
+  </a>
+</p>
 
 ---
 
 ## 📝 Design Notes & Calculations
-[![Design Notes](images/design-notes.png)](images/design-notes.png)
+<p align="center">
+  <a href="images/design-notes.png">
+    <img src="images/design-notes.png" width="400"/>
+  </a>
+</p>
 
 ---
 
@@ -69,6 +87,6 @@ R. L. Boylestad and L. Nashelsky, *Electronic Devices and Circuit Theory*, 11th 
 
 ## 🧑‍💻 Author
 **THANGAVIKRAMAN RAMACHANDRAN**  
-B.E Electronics and Communication Engineering (Pre-Final Year)  
+B.E Electronics and Communication Engineering
 
-🔗 LinkedIn: https://www.linkedin.com/in/thangavikraman-ramachandran/
+🔗 LinkedIn: https://www.linkedin.com/in/thangavikraman-ramachandran/  
